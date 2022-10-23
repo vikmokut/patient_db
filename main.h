@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 typedef struct patient
 {
@@ -11,7 +10,7 @@ typedef struct patient
 	char lastname[10];
 	int hospNo;
 	int age;
-	char diagnosis[15];
+	char diagnosis[10];
 	char location[10];
 } patient;
 
